@@ -13,9 +13,7 @@ public class StockReport {
         this.sharePrice = sharePrice;
     }
 
-    public StockReport() {
 
-    }
 
 
     public String getStockNames() {
@@ -42,20 +40,20 @@ public class StockReport {
         this.sharePrice = sharePrice;
     }
 
-//    @Override
-//    public String toString() {
-//        return "StockReport{" +
-//                "stockNames='" + stockNames + '\'' +
-//                ", numOfShare=" + numOfShare +
-//                ", sharePrice=" + sharePrice +
-//                '}';
-//    }
-//    public StockReport() {
-//        this.stockNames = stockNames;
-//        this.numOfShare = numOfShare;
-//        this.sharePrice = sharePrice;
-//        this.totalSharePrice=totalSharePrice;
-//
-//    }
+    @Override
+    public String toString() {
+        return "StockReport{" +
+                "stockNames='" + stockNames + '\'' +
+                ", numOfShare=" + numOfShare +
+                ", sharePrice=" + sharePrice +
+                '}';
+    }
+    public StockReport() {
+        this.stockNames = stockNames;
+        this.numOfShare = numOfShare;
+        this.sharePrice = sharePrice;
+        this.totalSharePrice=totalSharePrice;
+
+    }
 }
 
